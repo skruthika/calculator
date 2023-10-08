@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00b2f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align:center;
+}
+
+.calculator {
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1695502621/display_1500/stock-vector-black-line-calculator-icon-isolated-seamless-pattern-on-green-background-accounting-symbol-1695502621.jpg"); 
+    border: 1px solid #b71212;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+#display {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
